@@ -21,6 +21,7 @@ namespace Test
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+					
                 });
     }
 }
